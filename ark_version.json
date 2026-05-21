@@ -1,10 +1,21 @@
 {
   "application": "ARK",
-  "schema_version": "1.0",
-  "primary_model": {
-    "ollama_tag": "llama3.2",
-    "approved_date": "2026-05-20",
-    "release_notes": "初期安定版",
-    "pull_command": "ollama pull llama3.2"
+  "schema_version": "1.1",
+  "models": {
+    "cpu": {
+      "ollama_tag": "llama3.2",
+      "description": "CPU専用・一般ノートPC向け",
+      "pull_command": "ollama pull llama3.2"
+    },
+    "gpu_standard": {
+      "ollama_tag": "llama3.2",
+      "description": "GPU VRAM 6GB以上向け",
+      "pull_command": "ollama pull llama3.2"
+    },
+    "gpu_high": {
+      "ollama_tag": "llama3.2",
+      "description": "GPU VRAM 12GB以上向け",
+      "pull_command": "ollama pull llama3.2"
+    }
   }
 }
