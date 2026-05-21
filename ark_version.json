@@ -1,0 +1,10 @@
+{
+  "application": "ARK",
+  "schema_version": "1.0",
+  "primary_model": {
+    "ollama_tag": "llama3.2",
+    "approved_date": "2026-05-20",
+    "release_notes": "初期安定版",
+    "pull_command": "ollama pull llama3.2"
+  }
+}
